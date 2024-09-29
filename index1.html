@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>موقع ويب</title>
+</head>
+<body>
+    <header>
+        <div class="logo">شعار الموقع</div>
+        <img src="imges/1.png">
+        <nav>
+            <ul>
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="page1.html">Car 1</a></li>
+                <li><a href="page2.html">Car 2</a></li>
+                <li><a href="page3.html">Car 3</a></li>
+                <li><button id="loginBtn">تسجيل الدخول</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>  معرض سيارت</h1>
+            <h1>           اشهر واحدث السيارات في موقعنا</h1>
+        </section>
+      
+            <article class="art">
+               <div class="wow-slider">   
+            <img src="imges/Picsart_22-08-30_17-34-38-537.jpg" alt="CAR 1">
+           
+            <img src="imges/Snapchat-1076529461.jpg" alt="CAR 2">
+            
+            <img src="imges/IMG_20220830_172816.jpg" alt="CAR 3">
+            
+            </div>
+        </article>
+        
+    </main>
+    
+    <footer>
+        <h1 class="heed1">جميع الحقوق محفوظة © 2024</h1>
+        <div class="so">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </footer>
+
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>تسجيل الدخول</h2>
+            <form>
+                <label for="username">اسم المستخدم:</label>
+                <input type="text" id="username" required>
+                <label for="password">كلمة المرور:</label>
+                <input type="password" id="password" required>
+                <button type="submit">تسجيل الدخول</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
